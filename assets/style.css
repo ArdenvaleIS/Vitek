@@ -10,3 +10,11 @@ section{padding:64px 0}section.tint{background:var(--light)}h2{font-size:31px;li
 .contact-grid{display:grid;grid-template-columns:1.4fr .9fr;gap:33px}.form{background:var(--light);border:1px solid var(--line);padding:24px;border-radius:8px}.form label{display:block;font-weight:700;font-size:15px;margin:0 0 5px}.form input,.form select,.form textarea{width:100%;padding:11px;font:inherit;font-size:16px;border:1px solid #a9bfc9;border-radius:5px;background:#fff;color:var(--ink);margin-bottom:17px}.form textarea{min-height:156px;resize:vertical}.form button{cursor:pointer}.contact-items p{margin-bottom:16px}.contact-items strong{display:block}.privacy-note{font-size:13px;color:var(--muted)}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
 footer{background:var(--navy);color:#fff;padding:27px 0;font-size:14px}footer p{margin:3px 0}footer .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}footer a{color:white}.top-link{text-decoration:none;white-space:nowrap}.page-mark{font-size:14px;color:var(--muted);margin-top:18px}
 @media(max-width:950px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.benefits{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){body{font-size:16px}.wrap{padding:0 19px}nav{padding:13px 0}.links{gap:13px}.links a{font-size:13px}.hero{padding:44px 0}.hero-title{align-items:flex-start;gap:13px}.hero-logo{width:67px;height:67px}.hero .lede{font-size:19px}.benefits,.cards,.cards.two,.problem-grid,.steps,.contact-grid{grid-template-columns:1fr}.benefit h3{min-height:0}section{padding:44px 0}h2{font-size:27px}.card{padding:18px}.cta .wrap{display:block}.cta .button{margin-top:17px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* v19 inline form feedback */
+.form-status{padding:12px 14px;border-radius:5px;margin:14px 0 0;line-height:1.5;font-weight:600}
+.form-status[hidden]{display:none}
+.form-status.pending{background:#e9f3f6;color:#12495d}
+.form-status.success{background:#e5f5ed;color:#175b3c;border:1px solid #a9d7bd}
+.form-status.error{background:#fff1ed;color:#842c17;border:1px solid #e6b5a7}
+.form button:disabled{opacity:.7;cursor:wait}
