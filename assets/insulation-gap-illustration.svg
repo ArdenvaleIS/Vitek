@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 545" role="img" aria-labelledby="title desc">
 <title id="title">Properly fitted cavity insulation compared with a gap in insulation</title>
 <desc id="desc">Two simplified framed wall cavities. The left shows insulation fitted between framing members, with snowflake and water-drop symbols inside the cavity crossed out to indicate reduced condensation risk. The right shows a gap in the insulation, with the same symbols positioned inside the gap to indicate a cold spot and condensation risk.</desc>
 <defs>
@@ -12,10 +12,13 @@
     <path d="M8 17 C8 10 16 1 16 1 C16 1 24 10 24 17 A8 8 0 1 1 8 17Z"/>
   </g>
 </defs>
-<rect x="12" y="12" width="576" height="555" rx="18" fill="#f5fafb" stroke="#c8dce3" stroke-width="3"/>
-<rect x="612" y="12" width="576" height="555" rx="18" fill="#f5fafb" stroke="#c8dce3" stroke-width="3"/>
+<rect x="12" y="12" width="576" height="470" rx="18" fill="#f5fafb" stroke="#c8dce3" stroke-width="3"/>
+<rect x="612" y="12" width="576" height="470" rx="18" fill="#f5fafb" stroke="#c8dce3" stroke-width="3"/>
 <text x="300" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#12354c">Insulation fitted between framing</text>
 <text x="900" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#12354c">Gap or void in insulation</text>
+<text x="300" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#285467">Reduced cold-spot risk</text>
+<text x="900" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#285467">Cold spot — condensation risk</text>
+<g transform="translate(0 40)">
 <!-- Left: insulation fitted in the cavity between framing members -->
 <rect x="95" y="105" width="42" height="300" fill="#b9c7cd"/>
 <rect x="463" y="105" width="30" height="300" fill="#e2d4c4"/>
@@ -38,7 +41,8 @@
 <circle cx="300" cy="264" r="47" fill="none" stroke="#c43f43" stroke-width="6"/>
 <path d="M267 231 L333 297" stroke="#c43f43" stroke-width="7" stroke-linecap="round"/>
 <g transform="translate(900 264)"><g transform="translate(-18 0)"><use href="#snowflake"/></g><g transform="translate(27 2) scale(.82)"><use href="#drops"/></g></g>
-<text x="300" y="536" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#285467">Reduced cold-spot risk</text>
-<text x="900" y="536" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#285467">Cold spot — condensation risk</text>
-<text x="600" y="592" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#536573">Conceptual illustration only. Actual construction details vary.</text>
+
+
+</g>
+<text x="600" y="520" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#536573">Conceptual illustration only. Actual construction details vary.</text>
 </svg>

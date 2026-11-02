@@ -52,3 +52,9 @@ footer{background:var(--navy);color:#fff;padding:27px 0;font-size:14px}footer p{
 .own-work-card img{height:auto;aspect-ratio:16/9;object-fit:contain;background:#e9f0f2}
 .own-work-card figcaption p{margin-bottom:0}
 @media(max-width:650px){.own-work-grid{grid-template-columns:1fr}}
+
+/* Version 24: genuine portrait and contextual manufacturing photo */
+.profile-photo{width:78px;height:78px;object-fit:cover;border-radius:50%;border:4px solid #e5f0f3;display:block}
+.robot-inline-photo{float:right;width:170px;height:272px;object-fit:cover;object-position:center 44%;margin:4px 0 14px 22px;border:1px solid var(--line);border-radius:7px}
+.independent-advice-section{padding:28px 0;background:#f5fafb}.independent-advice-section .callout{margin:0}
+@media(max-width:650px){.robot-inline-photo{float:none;display:block;width:170px;height:255px;margin:12px 0 20px}}
