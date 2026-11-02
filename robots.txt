@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ardenvaleis.github.io/Vitek/sitemap.xml
