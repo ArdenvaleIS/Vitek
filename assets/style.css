@@ -18,3 +18,30 @@ footer{background:var(--navy);color:#fff;padding:27px 0;font-size:14px}footer p{
 .form-status.success{background:#e5f5ed;color:#175b3c;border:1px solid #a9d7bd}
 .form-status.error{background:#fff1ed;color:#842c17;border:1px solid #e6b5a7}
 .form button:disabled{opacity:.7;cursor:wait}
+
+
+/* Version 21: personal introductions and contextual image examples */
+.personal-intro{display:grid;grid-template-columns:78px 1fr;gap:20px;align-items:start;max-width:920px;margin:24px 0}
+.profile-monogram{width:76px;height:76px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(140deg,#11273a,#126b85);color:#fff;font-size:24px;font-weight:800;letter-spacing:.04em;border:4px solid #e5f0f3}
+.personal-intro h3{margin:0 0 8px}
+.personal-intro p:last-child{margin-bottom:0}
+.photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:24px}
+.photo-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.photo-card,.diagram-card{margin:0;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;min-width:0}
+.photo-card img,.diagram-card img{display:block;width:100%;height:220px;object-fit:cover;background:#e9f0f2}
+.photo-card figcaption,.diagram-card figcaption{padding:15px 17px}
+.photo-card figcaption strong,.diagram-card figcaption strong{display:block;color:var(--navy);margin-bottom:5px}
+.photo-card figcaption p,.diagram-card figcaption p{font-size:14px;line-height:1.5;margin:0 0 8px}
+.photo-card figcaption small{display:block;font-size:11px;line-height:1.45;color:var(--muted)}
+.photo-card figcaption small a{color:var(--muted)}
+.diagram-card{margin-top:22px}
+.diagram-card img{height:auto;max-height:none;object-fit:contain;padding:12px}
+.mold-intro{display:grid;grid-template-columns:1.25fr .75fr;gap:26px;align-items:start}
+.mold-intro .photo-card img{height:260px}
+.cause-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:24px}
+.cause-card{background:#fff;border:1px solid var(--line);border-top:4px solid var(--blue);border-radius:8px;padding:21px}
+.cause-card .tag{font-size:12px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:10px}
+.cause-card p{font-size:15px}
+.cause-card p:last-child{margin-bottom:0}
+@media(max-width:950px){.photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cause-grid{grid-template-columns:1fr}.mold-intro{grid-template-columns:1fr}}
+@media(max-width:650px){.personal-intro{grid-template-columns:1fr;gap:12px}.photo-grid,.photo-grid.two{grid-template-columns:1fr}.photo-card img,.mold-intro .photo-card img{height:220px}.diagram-card img{padding:5px}}
