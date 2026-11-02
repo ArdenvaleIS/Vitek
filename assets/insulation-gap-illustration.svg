@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">Properly fitted cavity insulation compared with a gap in insulation</title>
+<desc id="desc">Two simplified framed wall cavities. The left shows insulation fitted between framing members, with symbols indicating reduced cold-spot and condensation risk. The right shows a gap in the insulation, with snowflake and water-drop symbols indicating a cold spot and condensation risk.</desc>
+<defs>
+  <pattern id="batt" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M0 14 Q7 2 14 14 T28 14" fill="none" stroke="#9f8a62" stroke-width="3"/></pattern>
+  <g id="snowflake" stroke="#247c9a" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M0 -27 V27 M-23.4 -13.5 L23.4 13.5 M-23.4 13.5 L23.4 -13.5"/>
+    <path d="M0 -27 l-7 8 M0 -27 l7 8 M0 27 l-7 -8 M0 27 l7 -8 M-23.4 -13.5 l10 1 M-23.4 -13.5 l3 9 M23.4 13.5 l-10 -1 M23.4 13.5 l-3 -9 M-23.4 13.5 l10 -1 M-23.4 13.5 l3 -9 M23.4 -13.5 l-10 1 M23.4 -13.5 l-3 9"/>
+  </g>
+  <g id="drops" fill="#3298b7" stroke="#247c9a" stroke-width="1.5">
+    <path d="M-17 8 C-17 -1 -7 -12 -7 -12 C-7 -12 3 -1 3 8 A10 10 0 1 1 -17 8Z"/>
+    <path d="M8 17 C8 10 16 1 16 1 C16 1 24 10 24 17 A8 8 0 1 1 8 17Z"/>
+  </g>
+</defs>
+<rect x="12" y="12" width="576" height="555" rx="18" fill="#f5fafb" stroke="#c8dce3" stroke-width="3"/>
+<rect x="612" y="12" width="576" height="555" rx="18" fill="#f5fafb" stroke="#c8dce3" stroke-width="3"/>
+<text x="300" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#12354c">Insulation fitted between framing</text>
+<text x="900" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#12354c">Gap or void in insulation</text>
+<!-- Left: insulation fitted in the cavity between framing members -->
+<rect x="95" y="105" width="42" height="300" fill="#b9c7cd"/>
+<rect x="463" y="105" width="30" height="300" fill="#e2d4c4"/>
+<rect x="137" y="105" width="326" height="300" fill="#f2e9dc" stroke="#c8b79d" stroke-width="2"/>
+<rect x="145" y="113" width="310" height="284" fill="#d9c79e"/>
+<rect x="145" y="113" width="310" height="284" fill="url(#batt)" opacity=".8"/>
+<rect x="137" y="105" width="20" height="300" fill="#9a744d"/><rect x="443" y="105" width="20" height="300" fill="#9a744d"/>
+<rect x="80" y="105" width="15" height="300" fill="#6d8796"/><rect x="493" y="105" width="16" height="300" fill="#c8d2d8"/>
+<!-- Right: gap in cavity insulation -->
+<rect x="695" y="105" width="42" height="300" fill="#b9c7cd"/>
+<rect x="1063" y="105" width="30" height="300" fill="#e2d4c4"/>
+<rect x="737" y="105" width="326" height="300" fill="#f2e9dc" stroke="#c8b79d" stroke-width="2"/>
+<rect x="745" y="113" width="310" height="284" fill="#d9c79e"/>
+<rect x="745" y="113" width="310" height="284" fill="url(#batt)" opacity=".8"/>
+<rect x="745" y="225" width="310" height="78" fill="#eaf5f7" stroke="#70a9b9" stroke-dasharray="9 7" stroke-width="3"/>
+<rect x="737" y="105" width="20" height="300" fill="#9a744d"/><rect x="1043" y="105" width="20" height="300" fill="#9a744d"/>
+<rect x="680" y="105" width="15" height="300" fill="#6d8796"/><rect x="1093" y="105" width="16" height="300" fill="#c8d2d8"/>
+<!-- Cold and moisture symbols: reduced risk on left; risk at the gap on right -->
+<g transform="translate(270 462)"><g transform="translate(-18 0)"><use href="#snowflake"/></g><g transform="translate(27 2) scale(.82)"><use href="#drops"/></g></g>
+<circle cx="270" cy="462" r="47" fill="none" stroke="#c43f43" stroke-width="6"/>
+<path d="M237 429 L303 495" stroke="#c43f43" stroke-width="7" stroke-linecap="round"/>
+<g transform="translate(870 462)"><g transform="translate(-18 0)"><use href="#snowflake"/></g><g transform="translate(27 2) scale(.82)"><use href="#drops"/></g></g>
+<text x="300" y="536" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#285467">Reduced cold-spot risk</text>
+<text x="900" y="536" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#285467">Cold spot — condensation risk</text>
+<text x="600" y="592" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#536573">Conceptual illustration only. Actual construction details vary.</text>
+</svg>
