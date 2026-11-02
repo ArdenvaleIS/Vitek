@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
 <title id="title">Properly fitted cavity insulation compared with a gap in insulation</title>
-<desc id="desc">Two simplified framed wall cavities. The left shows insulation fitted between framing members, with symbols indicating reduced cold-spot and condensation risk. The right shows a gap in the insulation, with snowflake and water-drop symbols indicating a cold spot and condensation risk.</desc>
+<desc id="desc">Two simplified framed wall cavities. The left shows insulation fitted between framing members, with snowflake and water-drop symbols inside the cavity crossed out to indicate reduced condensation risk. The right shows a gap in the insulation, with the same symbols positioned inside the gap to indicate a cold spot and condensation risk.</desc>
 <defs>
   <pattern id="batt" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M0 14 Q7 2 14 14 T28 14" fill="none" stroke="#9f8a62" stroke-width="3"/></pattern>
   <g id="snowflake" stroke="#247c9a" stroke-width="5" stroke-linecap="round" fill="none">
@@ -34,10 +34,10 @@
 <rect x="737" y="105" width="20" height="300" fill="#9a744d"/><rect x="1043" y="105" width="20" height="300" fill="#9a744d"/>
 <rect x="680" y="105" width="15" height="300" fill="#6d8796"/><rect x="1093" y="105" width="16" height="300" fill="#c8d2d8"/>
 <!-- Cold and moisture symbols: reduced risk on left; risk at the gap on right -->
-<g transform="translate(270 462)"><g transform="translate(-18 0)"><use href="#snowflake"/></g><g transform="translate(27 2) scale(.82)"><use href="#drops"/></g></g>
-<circle cx="270" cy="462" r="47" fill="none" stroke="#c43f43" stroke-width="6"/>
-<path d="M237 429 L303 495" stroke="#c43f43" stroke-width="7" stroke-linecap="round"/>
-<g transform="translate(870 462)"><g transform="translate(-18 0)"><use href="#snowflake"/></g><g transform="translate(27 2) scale(.82)"><use href="#drops"/></g></g>
+<g transform="translate(300 264)"><g transform="translate(-18 0)"><use href="#snowflake"/></g><g transform="translate(27 2) scale(.82)"><use href="#drops"/></g></g>
+<circle cx="300" cy="264" r="47" fill="none" stroke="#c43f43" stroke-width="6"/>
+<path d="M267 231 L333 297" stroke="#c43f43" stroke-width="7" stroke-linecap="round"/>
+<g transform="translate(900 264)"><g transform="translate(-18 0)"><use href="#snowflake"/></g><g transform="translate(27 2) scale(.82)"><use href="#drops"/></g></g>
 <text x="300" y="536" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#285467">Reduced cold-spot risk</text>
 <text x="900" y="536" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#285467">Cold spot — condensation risk</text>
 <text x="600" y="592" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#536573">Conceptual illustration only. Actual construction details vary.</text>
