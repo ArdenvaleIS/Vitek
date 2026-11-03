@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 545" role="img" aria-labelledby="title desc">
-<title id="title">Properly fitted cavity insulation compared with a gap in insulation</title>
-<desc id="desc">Two simplified framed wall cavities. The left shows insulation fitted between framing members, with snowflake and water-drop symbols inside the cavity crossed out to indicate reduced condensation risk. The right shows a gap in the insulation, with the same symbols positioned inside the gap to indicate a cold spot and condensation risk.</desc>
+<title id="title">Properly fitted cavity insulation compared with a gap, void or compressed area in insulation</title>
+<desc id="desc">Two simplified framed wall cavities. The left shows insulation fitted between framing members, with snowflake and water-drop symbols inside the cavity crossed out to indicate reduced condensation risk. The right shows a gap, void or compressed area in the insulation, with the same symbols positioned inside the affected area to indicate a cold spot and condensation risk.</desc>
 <defs>
   <pattern id="batt" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M0 14 Q7 2 14 14 T28 14" fill="none" stroke="#9f8a62" stroke-width="3"/></pattern>
   <g id="snowflake" stroke="#247c9a" stroke-width="5" stroke-linecap="round" fill="none">
@@ -15,7 +15,7 @@
 <rect x="12" y="12" width="576" height="470" rx="18" fill="#f5fafb" stroke="#c8dce3" stroke-width="3"/>
 <rect x="612" y="12" width="576" height="470" rx="18" fill="#f5fafb" stroke="#c8dce3" stroke-width="3"/>
 <text x="300" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#12354c">Insulation fitted between framing</text>
-<text x="900" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#12354c">Gap or void in insulation</text>
+<text x="900" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#12354c">Gap, void or compressed insulation</text>
 <text x="300" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#285467">Reduced cold-spot risk</text>
 <text x="900" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#285467">Cold spot — condensation risk</text>
 <g transform="translate(0 40)">
