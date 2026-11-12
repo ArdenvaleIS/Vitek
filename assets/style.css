@@ -72,3 +72,19 @@ details summary{padding:0;list-style-position:outside}
 
 /* v26: same reduced H1 size on all pages, including mobile */
 @media(max-width:650px){.hero h1{font-size:30px}}
+
+/* v29: Four-step inquiry flow, existing visual identity retained */
+.steps.steps-four{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.steps-four .step{padding:16px 14px 16px 48px}
+.steps-four .step:before{left:12px;top:16px;width:26px;height:26px}
+.steps-four .step h3{font-size:17px;line-height:1.3}
+.steps-four .step p{font-size:14px;line-height:1.5}
+.steps-four .step a{display:inline-block;margin-top:11px;font-size:14px;font-weight:700}
+.testimonial-quote{margin:0 0 13px;font-size:15px;line-height:1.55}
+.testimonial-attribution{font-weight:700;color:var(--navy);margin:0}
+@media(max-width:950px){.steps.steps-four{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.steps.steps-four{grid-template-columns:1fr}}
+
+/* Multi-paragraph approved customer quotations (Version 30). */
+.testimonial-quote p{margin:0 0 13px}
+.testimonial-quote p:last-child{margin-bottom:0}
