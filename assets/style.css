@@ -88,3 +88,17 @@ details summary{padding:0;list-style-position:outside}
 /* Multi-paragraph approved customer quotations (Version 30). */
 .testimonial-quote p{margin:0 0 13px}
 .testimonial-quote p:last-child{margin-bottom:0}
+
+/* Version 31: expandable homeowner reviews; same palette and site typography */
+.testimonial-card .testimonial-attribution{margin-bottom:12px}
+.testimonial-details{margin:0}
+.testimonial-details summary{display:block;list-style:none;cursor:pointer;font-weight:400;color:var(--ink)}
+.testimonial-details summary::-webkit-details-marker{display:none}
+.testimonial-preview{display:block;font-size:16px;line-height:1.6}
+.testimonial-toggle{display:inline-block;margin-top:14px;font-weight:750;font-size:15px;color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+.testimonial-details[open] .testimonial-preview{display:none}
+.testimonial-details[open] .testimonial-toggle{font-size:0}
+.testimonial-details[open] .testimonial-toggle::after{content:"Read Less";font-size:15px}
+.testimonial-full{padding-top:12px;border-top:1px solid var(--line);margin-top:13px}
+.testimonial-full .testimonial-quote{margin:0}
+.testimonial-details[open] summary{margin-bottom:0}
